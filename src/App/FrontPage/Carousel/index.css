@@ -17,7 +17,7 @@
 }
 
 @media screen and (max-width: 512px),
-screen and (min-width: 768px) and (min-height: 1024px) {
+screen and (min-width: 768px) and (max-width: 1024px) and (min-height: 1024px) {
   .Carousel {
     height: 35vh;
   }

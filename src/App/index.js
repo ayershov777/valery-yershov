@@ -12,10 +12,10 @@ import { useWindowSize } from '../utils';
 const backgroundImage = `url(${process.env.PUBLIC_URL + data.backgroundImage})`;
 
 function App() {
-  const [width] = useWindowSize();
+  const [width, height] = useWindowSize();
   return (
     <div className="App" 
-      style={width <= 768 ? { backgroundImage: 'linear-gradient(#999999, #eeeeee)' } : { backgroundImage }}
+      style={width <= 832 || height >= 768 ? { backgroundImage: 'linear-gradient(#999999, #eeeeee)' } : { backgroundImage }}
     >
       <div style= {{ backgroundColor: 'rgba(255, 255, 255, 0.5)' }}>
         <Router>
@@ -25,7 +25,7 @@ function App() {
           </Switch>
         </Router>
       </div>
-      {width > 768 && <div className="fade-footer" />}
+      {width > 832 && height < 768 && <div className="fade-footer" />}
     </div>
   );
 }
