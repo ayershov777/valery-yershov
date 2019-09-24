@@ -18,7 +18,8 @@ function App() {
       style= {
         width <= 832 || (height >= 760 && width <= 1376)
         ? { backgroundImage: '-webkit-linear-gradient(#999999, #eeeeee)' }
-        : { backgroundImage }}
+        : { backgroundImage }
+      }
     >
       <div style= {{ backgroundColor: 'rgba(255, 255, 255, 0.5)' }}>
         <Router>
