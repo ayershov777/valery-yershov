@@ -1,0 +1,12 @@
+.App {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 100vh;
+}
+
+.fade-footer {
+  height: 40vh;
+  background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, 0));
+}
