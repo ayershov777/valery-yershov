@@ -15,7 +15,7 @@ function App() {
   const [width, height] = useWindowSize();
   return (
     <div className="App" 
-      style={width <= 832 || (height >= 736 && width <= 1376) ? { backgroundImage: 'linear-gradient(#999999, #eeeeee)' } : { backgroundImage }}
+      style={width <= 832 || (height >= 768 && width <= 1376) ? { backgroundImage: 'linear-gradient(#999999, #eeeeee)' } : { backgroundImage }}
     >
       <div style= {{ backgroundColor: 'rgba(255, 255, 255, 0.5)' }}>
         <Router>
@@ -25,7 +25,7 @@ function App() {
           </Switch>
         </Router>
       </div>
-      {width > 832 && (height < 736 || width > 1376) && <div className="fade-footer" />}
+      {width > 832 && (height < 768 || width > 1376) && <div className="fade-footer" />}
     </div>
   );
 }
