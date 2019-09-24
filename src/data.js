@@ -185,10 +185,15 @@ export const app = {
 export const frontPage = {
   slideshow: [
     seaside.works.seahorse.photos[0],
-    underground.works.rhino.photos[0],
     seaside.works.octopus.photos[0],
-    underground.works.battle1.photos[0],
+    seaside.works.chameleon.photos[0],
     seaside.works.fish1.photos[0],
+    underground.works.shark.photos[0],
+    underground.works.rhino.photos[0],
+    underground.works.dog.photos[0],
+    underground.works.gorilla.photos[0],
+    underground.works.elephant.photos[0],
+    underground.works.battle1.photos[0],
   ],
   video: {
     src: 'https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fvalery.yershov.3%2Fvideos%2F2500473070013934%2F&show_text=0&width=560',
