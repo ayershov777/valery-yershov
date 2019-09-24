@@ -14,7 +14,7 @@ const DATA = {
           size: "44\" x 37\" (111cm x 94cm)",
           photos: [ // the photos are ordered by importance, first photo is the most important.
             {
-              src: "/images/collections/seaside/seahorse/cropped.png",
+              src: "/images/collections/seaside/seahorse/main.png",
               alt: "painting of a seahorse surrounded by a reef"
             }
           ]
@@ -27,7 +27,7 @@ const DATA = {
           size: "48\" x 46\" (122cm x 116cm)",
           photos: [
             {
-              src: "/images/collections/seaside/octopus/cropped.png",
+              src: "/images/collections/seaside/octopus/main.png",
               alt: "painting of an octopus ready to hunt"
             }
           ]
@@ -40,7 +40,7 @@ const DATA = {
           size: "38\" x 37\" (96cm x 94cm)",
           photos: [
             {
-              src: "/images/collections/seaside/chameleon/cropped.png",
+              src: "/images/collections/seaside/chameleon/main.png",
               alt: "painting of a chameleon by the sea"
             }
           ]
@@ -53,7 +53,7 @@ const DATA = {
           size: "36\" x 37\" (91cm x 95cm)",
           photos: [
             {
-              src: "/images/collections/seaside/chameleon/cropped.png",
+              src: "/images/collections/seaside/chameleon/main.png",
               alt: "painting of a fancy fish swimming in some coral"
             }
           ]
@@ -87,7 +87,7 @@ const DATA = {
           size: "37\" x 22\" (94cm x 56cm)",
           photos: [
             {
-              src: "/images/collections/underground/gorilla/cropped.png",
+              src: "/images/collections/underground/gorilla/main.png",
               alt: "painting of a gorilla covered in graffiti, sitting in a colorful catacomb"
             }
           ]
@@ -100,7 +100,7 @@ const DATA = {
           size: "59\" x 33\" (149cm x 84cm)",
           photos: [
             {
-              src: "/images/collections/underground/battle1/cropped.png",
+              src: "/images/collections/underground/battle1/main.png",
               alt: "painting of a tiger hunting an octopus in a flooded subway tunnel"
             }
           ]
@@ -113,7 +113,7 @@ const DATA = {
           size: "48in x 31in (121cm x 79cm)",
           photos: [
             {
-              src: "/images/collections/underground/battle1/cropped.png",
+              src: "/images/collections/underground/battle1/main.png",
               alt: "painting of a tiger hunting a white octopus in a flooded subway tunnel"
             }
           ]
@@ -126,7 +126,7 @@ const DATA = {
           size: "61\" x 46\" (156cm x 116cm)",
           photos: [
             {
-              src: "/images/collections/underground/rhino/cropped.png",
+              src: "/images/collections/underground/rhino/main.png",
               alt: "painting of a rhino staring down a vibrant subway tunnel filled with colorful street art"
             }
           ]
@@ -139,7 +139,7 @@ const DATA = {
           size: "42\" x 33\" (106cm x 83cm)",
           photos: [
             {
-              src: "/images/collections/underground/dog/cropped.png",
+              src: "/images/collections/underground/dog/main.png",
               alt: "painting of an American Pit Bull hanging out in a colorful subway tunnel"
             }
           ]
@@ -152,7 +152,7 @@ const DATA = {
           size: "55\" x 35\" (139cm x 88cm)",
           photos: [
             {
-              src: "/images/collections/underground/shark/cropped.png",
+              src: "/images/collections/underground/shark/main.png",
               alt: "painting of a great white shark swimming in a flooded subway tunnel"
             }
           ]
@@ -165,7 +165,7 @@ const DATA = {
           size: "25\" (71cm)",
           photos: [
             {
-              src: "/images/collections/underground/elephant/cropped.png",
+              src: "/images/collections/underground/elephant/main.png",
               alt: "painting of an elephant swimming in a flooded subway tunnel"
             }
           ]
@@ -185,9 +185,9 @@ export const app = {
 export const frontPage = {
   slideshow: [
     seaside.works.seahorse.photos[0],
-    underground.works.shark.photos[0],
+    underground.works.rhino.photos[0],
     seaside.works.octopus.photos[0],
-    underground.works.battle2.photos[0],
+    underground.works.battle1.photos[0],
     seaside.works.fish1.photos[0],
   ],
   video: {

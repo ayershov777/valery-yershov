@@ -22,7 +22,7 @@ export default function NavComponent() {
           <Nav.Link className={styles.NavItem} as={Link} to="/about/technique">Discover the Technique</Nav.Link>
           <Nav.Link className={styles.NavItem} as={Link} to="/about/artist">Artist's History</Nav.Link>
           <Nav.Link className={styles.NavItem} as={Link} to="/legacy">Legacy Work</Nav.Link>
-          <Nav.Link className={styles.NavItem} as={Link} to="/contact">Contact Studio</Nav.Link>
+          <Nav.Link className={styles.NavItem} as={Link} to="/contact">Contact Valery</Nav.Link>
         </Nav>
         <Nav className="ml-auto">
           <Nav.Link style={{ marginLeft: '15px' }} href={instagram}><i className="fa fa-lg fa-instagram" aria-hidden="true" /></Nav.Link>
