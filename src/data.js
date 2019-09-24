@@ -14,7 +14,7 @@ const DATA = {
           size: "44\" x 37\" (111cm x 94cm)",
           photos: [ // the photos are ordered by importance, first photo is the most important.
             {
-              src: "/images/collections/seaside/seahorse/main.png",
+              src: "https://valeryyershov.s3.amazonaws.com/collections/seaside/seahorse/main.png",
               alt: "painting of a seahorse surrounded by a reef"
             }
           ]
@@ -27,7 +27,7 @@ const DATA = {
           size: "48\" x 46\" (122cm x 116cm)",
           photos: [
             {
-              src: "/images/collections/seaside/octopus/main.png",
+              src: "https://valeryyershov.s3.amazonaws.com/collections/seaside/octopus/main.png",
               alt: "painting of an octopus ready to hunt"
             }
           ]
@@ -40,7 +40,7 @@ const DATA = {
           size: "38\" x 37\" (96cm x 94cm)",
           photos: [
             {
-              src: "/images/collections/seaside/chameleon/main.png",
+              src: "https://valeryyershov.s3.amazonaws.com/collections/seaside/chameleon/main.png",
               alt: "painting of a chameleon by the sea"
             }
           ]
@@ -53,7 +53,7 @@ const DATA = {
           size: "36\" x 37\" (91cm x 95cm)",
           photos: [
             {
-              src: "/images/collections/seaside/chameleon/main.png",
+              src: "https://valeryyershov.s3.amazonaws.com/collections/seaside/fish1/main.png",
               alt: "painting of a fancy fish swimming in some coral"
             }
           ]
@@ -75,7 +75,7 @@ const DATA = {
     },
     underground: {
       cover: {
-        photo: "battle2",
+        photo: "battle1",
         description: "Ocean levels have risen and the graffiti filled subways of New York City have been flooded—the animals of the African Savannah are roaming the streets. The latest collection of Valery Yershov entitled “Underground Art Collection” comprises works with themes that dares us to imagine a surreal world ravaged by climate change; a world in which all forces of nature have claimed our concrete jungles."
       },
       works: {
@@ -87,7 +87,7 @@ const DATA = {
           size: "37\" x 22\" (94cm x 56cm)",
           photos: [
             {
-              src: "/images/collections/underground/gorilla/main.png",
+              src: "https://valeryyershov.s3.amazonaws.com/collections/underground/gorilla/main.png",
               alt: "painting of a gorilla covered in graffiti, sitting in a colorful catacomb"
             }
           ]
@@ -100,7 +100,7 @@ const DATA = {
           size: "59\" x 33\" (149cm x 84cm)",
           photos: [
             {
-              src: "/images/collections/underground/battle1/main.png",
+              src: "https://valeryyershov.s3.amazonaws.com/collections/underground/battle1/main.png",
               alt: "painting of a tiger hunting an octopus in a flooded subway tunnel"
             }
           ]
@@ -113,7 +113,7 @@ const DATA = {
           size: "48in x 31in (121cm x 79cm)",
           photos: [
             {
-              src: "/images/collections/underground/battle1/main.png",
+              src: "",//"https://valeryyershov.s3.amazonaws.com/collections/underground/battle1/main.png",
               alt: "painting of a tiger hunting a white octopus in a flooded subway tunnel"
             }
           ]
@@ -126,7 +126,7 @@ const DATA = {
           size: "61\" x 46\" (156cm x 116cm)",
           photos: [
             {
-              src: "/images/collections/underground/rhino/main.png",
+              src: "https://valeryyershov.s3.amazonaws.com/collections/underground/rhino/main.png",
               alt: "painting of a rhino staring down a vibrant subway tunnel filled with colorful street art"
             }
           ]
@@ -139,7 +139,7 @@ const DATA = {
           size: "42\" x 33\" (106cm x 83cm)",
           photos: [
             {
-              src: "/images/collections/underground/dog/main.png",
+              src: "",//"https://valeryyershov.s3.amazonaws.com/collections/underground/dog/main.png",
               alt: "painting of an American Pit Bull hanging out in a colorful subway tunnel"
             }
           ]
@@ -152,7 +152,7 @@ const DATA = {
           size: "55\" x 35\" (139cm x 88cm)",
           photos: [
             {
-              src: "/images/collections/underground/shark/main.png",
+              src: "",//"https://valeryyershov.s3.amazonaws.com/collections/underground/shark/main.png",
               alt: "painting of a great white shark swimming in a flooded subway tunnel"
             }
           ]
@@ -165,7 +165,7 @@ const DATA = {
           size: "25\" (71cm)",
           photos: [
             {
-              src: "/images/collections/underground/elephant/main.png",
+              src: "https://valeryyershov.s3.amazonaws.com/collections/underground/elephant/main.png",
               alt: "painting of an elephant swimming in a flooded subway tunnel"
             }
           ]
@@ -179,7 +179,7 @@ export const seaside = DATA.collections.seaside;
 export const underground = DATA.collections.underground;
 
 export const app = {
-  backgroundImage: '/images/misc/background.png',
+  backgroundImage: 'https://valeryyershov.s3.amazonaws.com/misc/background.png',
 };
 
 export const frontPage = {
