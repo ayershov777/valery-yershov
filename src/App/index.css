@@ -7,7 +7,7 @@
 }
 
 @media only screen and (max-width: 832px),
-screen and (min-width: 832px) and (max-width: 1366px) and (min-height: 768px) and (max-height: 1366px) {
+screen and (min-width: 832px) and (max-width: 1376) and (min-height: 736) and (max-height: 1366px) {
   .App {
     padding-bottom: 0;
   }
