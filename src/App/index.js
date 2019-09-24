@@ -16,10 +16,11 @@ function App() {
   return (
     <div className="App" 
       style= {
-        {backgroundColor: 'black'}
-        // width <= 832 || (height >= 760 && width <= 1376)
+        // {backgroundColor: 'black'}
+        width <= 832 || (height >= 760 && width <= 1376)
         // ? { backgroundImage: '-webkit-linear-gradient(#999999, #eeeeee)' }
-        // : { backgroundImage }
+        ? { backgroundColor: 'black' }
+        : { backgroundImage }
       }
     >
       <div style= {{ backgroundColor: 'rgba(255, 255, 255, .5)' }}>
