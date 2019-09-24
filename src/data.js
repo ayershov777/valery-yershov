@@ -139,7 +139,7 @@ const DATA = {
           size: "42\" x 33\" (106cm x 83cm)",
           photos: [
             {
-              src: "",//"https://valeryyershov.s3.amazonaws.com/collections/underground/dog/main.png",
+              src: "https://valeryyershov.s3.amazonaws.com/collections/underground/dog/main.png",
               alt: "painting of an American Pit Bull hanging out in a colorful subway tunnel"
             }
           ]
@@ -152,7 +152,7 @@ const DATA = {
           size: "55\" x 35\" (139cm x 88cm)",
           photos: [
             {
-              src: "",//"https://valeryyershov.s3.amazonaws.com/collections/underground/shark/main.png",
+              src: "https://valeryyershov.s3.amazonaws.com/collections/underground/shark/main.png",
               alt: "painting of a great white shark swimming in a flooded subway tunnel"
             }
           ]
