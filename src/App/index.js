@@ -17,7 +17,7 @@ function App() {
         <Router>
           <NavComponent />
           <Switch>
-            <Route exact path={'/'} component={FrontPage} />
+            <Route exact path={'/'} render={FrontPage} />
           </Switch>
         </Router>
       </div>
