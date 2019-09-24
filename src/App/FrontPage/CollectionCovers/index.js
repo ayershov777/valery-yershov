@@ -10,7 +10,7 @@ function CoversComponent(props) {
   return (
     <div className="Covers">
       <h3>Collections</h3>
-      {width >= 512
+      {width > 768
 // desktop and tablet
       ?  props.covers.map((cover, idx) => {
           const image = <img src={process.env.PUBLIC_URL + cover.photo.src} alt={cover.photo.alt} />
@@ -31,7 +31,7 @@ function CoversComponent(props) {
         })
 // mobile
       : props.covers.map((cover, idx) => (
-          <Card className="mobile-cover" key={`cover-${idx}`} style={{ margin: '1vh 0' }}>
+          <Card className="mobile-cover" key={`cover-${idx}`} style={{ margin: '1vh 0', width: '85vw' }}>
             <Card.Img src={process.env.PUBLIC_URL + cover.photo.src} alt={cover.photo.alt} />
             <Card.ImgOverlay 
               style={{
