@@ -10,16 +10,18 @@ import { app as data } from '../data';
 import { useWindowSize } from '../utils';
 
 const backgroundImage = `url(${process.env.PUBLIC_URL + data.backgroundImage})`;
+const backgroundGradient = generateStripedGradient('15deg', 'white', 'lightgray', 30);
 
 function App() {
   const [width, height] = useWindowSize();
+
   return (
     <div className="App" 
       style= {
         // {backgroundColor: 'black'}
         width <= 832 || (height >= 760 && width <= 1376)
         // ? { backgroundImage: '-webkit-linear-gradient(#999999, #eeeeee)' }
-        ? { backgroundImage: 'linear-gradient(10deg, #DDDDFF, #DDDDFF 5%, white 5%, white 10%, #DDDDFF 10%, #DDDDFF 15%, white 15%, white 20%, #DDDDFF 20%, #DDDDFF 25%, white 25%, white 30%, #DDDDFF 30%, #DDDDFF 35%, white 35%, white 40%, #DDDDFF 40%, #DDDDFF 45%, white 45%, white 50%, #DDDDFF 50%, #DDDDFF 55%, white 55%, white 60%, #DDDDFF 60%, #DDDDFF 65%, white 65%, white 70%, #DDDDFF 70%, #DDDDFF 75%, white 75%, white 80%, #DDDDFF 80%, #DDDDFF 85%, white 85%, white 90%, #DDDDFF 90%, #DDDDFF 95%, white 95%, white)' }
+        ? { backgroundImage: backgroundGradient }//
         : { backgroundImage }
       }
     >
@@ -34,6 +36,26 @@ function App() {
       {width > 832 && (height < 760 || width > 1376) && <div className="fade-footer" />}
     </div>
   );
+}
+
+function generateStripedGradient(angle, color1, color2, reps) {
+  const colors = [color1, color2];
+  let colorStream = [];
+  for(let i=0; i<reps; i++) {
+    let offset1 = `${i/reps*100}`;
+    let offset2 = `${(i+1)/reps*100}`;
+    if(offset1.includes('.')) {
+      offset1 = offset1.split('.');
+      offset1 = offset1[0] + '.' + offset1[1].substr(0, 2);
+    }
+    if(offset2.includes('.')) {
+      offset2 = offset2.split('.');
+      offset2 = offset2[0] + '.' + offset2[1].substr(0, 2);
+    }
+    colorStream.push(`${colors[i%2]} ${offset1}%, ${colors[i%2]} ${offset2}%`);
+  }
+  colorStream = colorStream.join(', ');
+  return `linear-gradient(${angle}, ${colorStream})`;
 }
 
 export default App;
