@@ -19,7 +19,7 @@ function App() {
         // {backgroundColor: 'black'}
         width <= 832 || (height >= 760 && width <= 1376)
         // ? { backgroundImage: '-webkit-linear-gradient(#999999, #eeeeee)' }
-        ? { backgroundImage: 'linear-gradient(black, white)' }
+        ? { backgroundImage: 'linear-gradient(45deg, black, black 20%, white 20%, white 40%, black 40%, black 60%, white 60%, white 80%, black 80%, black)' }
         : { backgroundImage }
       }
     >
