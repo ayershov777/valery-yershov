@@ -19,7 +19,7 @@ function App() {
         // {backgroundColor: 'black'}
         width <= 832 || (height >= 760 && width <= 1376)
         // ? { backgroundImage: '-webkit-linear-gradient(#999999, #eeeeee)' }
-        ? { backgroundImage: 'linear-gradient(45deg, black, black 20%, white 20%, white 40%, black 40%, black 60%, white 60%, white 80%, black 80%, black)' }
+        ? { backgroundImage: 'linear-gradient(45deg, #E0E0E0, #E0E0E0 5%, white 5%, white 10%, #E0E0E0 10%, #E0E0E0 15%, white 15%, white 20%, #E0E0E0 20%, #E0E0E0 25%, white 25%, white 30%, #E0E0E0 30%, #E0E0E0 35%, white 35%, white 40%, #E0E0E0 40%, #E0E0E0 45%, white 45%, white 50%, #E0E0E0 50%, #E0E0E0 55%, white 55%, white 60%, #E0E0E0 60%, #E0E0E0 65%, white 65%, white 70%, #E0E0E0 70%, #E0E0E0 75%, white 75%, white 80%, #E0E0E0 80%, #E0E0E0 85%, white 85%, white 90%, #E0E0E0 90%, #E0E0E0 95%, white 95%, white)' }
         : { backgroundImage }
       }
     >
