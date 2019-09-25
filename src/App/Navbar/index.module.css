@@ -5,6 +5,13 @@
   box-shadow: 0 3px 5px;
 }
 
-.NavItem {
+.NavItem,
+.NavItem > * {
   margin: auto 2vw;
+  color: #D0D0D0 !important;
+}
+
+.NavItem:hover,
+.NavItem > *:hover {
+  color: #FFF !important;
 }

@@ -23,7 +23,7 @@ function App() {
         : { backgroundImage }
       }
     >
-      <div style= {{ backgroundColor: 'rgba(128, 128, 128, .8)' }}>
+      <div style= {{ backgroundColor: 'rgba(255, 255, 255, .5)' }}>
         <Router>
           <NavComponent />
           <Switch>
