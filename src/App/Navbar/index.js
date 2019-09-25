@@ -11,7 +11,7 @@ const instagram = "https://www.instagram.com/valeryyershov/";
 export default function NavComponent() {
   return (
     <Navbar className={styles.Navbar} variant="dark" expand="lg">
-      <Navbar.Brand as={Link} to="/" style={{ fontStyle: 'italic' }} >Valery Yershov</Navbar.Brand>
+      <Navbar.Brand as={Link} to="/" style={{ fontStyle: 'italic' }}>Valery Yershov</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="m-auto">
