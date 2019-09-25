@@ -23,5 +23,5 @@ screen and (min-width: 832px) and (max-width: 1376px) and (min-height: 760px) an
 
 .fade-footer {
   height: 40vh;
-  background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, 0));
+  background: linear-gradient(rgba(128, 128, 128, .8), rgba(255, 255, 255, 0));
 }
