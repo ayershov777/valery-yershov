@@ -76,7 +76,7 @@ const DATA = {
     underground: {
       cover: {
         photo: "battle1",
-        description: "Ocean levels have risen and the graffiti filled subways of New York City have been flooded—the animals of the African Savannah are roaming the streets. The latest collection of Valery Yershov entitled “Underground Art Collection” comprises works with themes that dares us to imagine a surreal world ravaged by climate change; a world in which all forces of nature have claimed our concrete jungles."
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tincidunt eget nullam non nisi est. Et sollicitudin ac orci phasellus egestas tellus rutrum tellus. Tortor condimentum lacinia quis vel eros donec ac odio tempor."
       },
       works: {
         gorilla: {

@@ -19,7 +19,7 @@ function App() {
         // {backgroundColor: 'black'}
         width <= 832 || (height >= 760 && width <= 1376)
         // ? { backgroundImage: '-webkit-linear-gradient(#999999, #eeeeee)' }
-        ? { backgroundImage: 'linear-gradient(45deg, #E0E0E0, #E0E0E0 5%, white 5%, white 10%, #E0E0E0 10%, #E0E0E0 15%, white 15%, white 20%, #E0E0E0 20%, #E0E0E0 25%, white 25%, white 30%, #E0E0E0 30%, #E0E0E0 35%, white 35%, white 40%, #E0E0E0 40%, #E0E0E0 45%, white 45%, white 50%, #E0E0E0 50%, #E0E0E0 55%, white 55%, white 60%, #E0E0E0 60%, #E0E0E0 65%, white 65%, white 70%, #E0E0E0 70%, #E0E0E0 75%, white 75%, white 80%, #E0E0E0 80%, #E0E0E0 85%, white 85%, white 90%, #E0E0E0 90%, #E0E0E0 95%, white 95%, white)' }
+        ? { backgroundImage: 'linear-gradient(10deg, #DDDDFF, #DDDDFF 5%, white 5%, white 10%, #DDDDFF 10%, #DDDDFF 15%, white 15%, white 20%, #DDDDFF 20%, #DDDDFF 25%, white 25%, white 30%, #DDDDFF 30%, #DDDDFF 35%, white 35%, white 40%, #DDDDFF 40%, #DDDDFF 45%, white 45%, white 50%, #DDDDFF 50%, #DDDDFF 55%, white 55%, white 60%, #DDDDFF 60%, #DDDDFF 65%, white 65%, white 70%, #DDDDFF 70%, #DDDDFF 75%, white 75%, white 80%, #DDDDFF 80%, #DDDDFF 85%, white 85%, white 90%, #DDDDFF 90%, #DDDDFF 95%, white 95%, white)' }
         : { backgroundImage }
       }
     >
