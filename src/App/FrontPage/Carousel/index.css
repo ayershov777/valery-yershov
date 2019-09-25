@@ -1,6 +1,7 @@
 .Carousel {
   height: 85vh;
-  background: rgba(32, 32, 32, 0.9);
+  background: rgba(16, 16, 16, 0.9);
+  /* background: black; */
 }
 
 .Carousel > div {
