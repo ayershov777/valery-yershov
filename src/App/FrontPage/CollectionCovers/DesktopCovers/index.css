@@ -1,0 +1,51 @@
+
+.cover {
+  margin: 1.25%;
+  width: 80%;
+  border-radius: 5px;
+  background: teal;
+  padding: 3vh 3vw;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 0 5px teal;
+}
+
+.cover:nth-child(odd) {
+  background: seagreen;
+  box-shadow: 0 0 5px seagreen;
+}
+
+.cover > img {
+  width: 40%;
+  align-self: center;
+  background-color: teal;
+  box-shadow: 5px 5px 10px #323232;
+}
+
+.cover > div {
+  width: 55%;
+  height: auto;
+  display: flex;
+  flex-direction: vertical;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: auto 0;
+  font-size: 1.3vw;
+  line-height: 1.5em;
+}
+
+.cover > div > h3 {
+  width: 100%;
+  text-transform: capitalize;
+  font-size: 3vw;
+  text-shadow: 1px 1px #999;
+  font-style: italic;
+  color: black;
+}
+
+.cover > div > p {
+  color: #ddd;
+  font-size: 1.7vw;
+  line-height: 1.3em;
+  letter-spacing: 0.05em
+}

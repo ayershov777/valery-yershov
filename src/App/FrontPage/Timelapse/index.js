@@ -12,7 +12,7 @@ function TimelapseComponent(props) {
       <iframe title="timelapse" src={props.video.src} scrolling="no" frameBorder="0" allowtransparency="true" allowFullScreen={true} />
       <div>
         <p>{props.video.description}</p>
-        {width > 768
+        {width > 640
         ? <Button variant="outline-dark">learn more</Button>
         : <Button variant="dark">learn more</Button>}
       </div>

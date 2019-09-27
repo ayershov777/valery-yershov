@@ -1,0 +1,20 @@
+div.card {
+  margin: 1vh 0;
+  width: 85vw;
+}
+
+div.card-img-overlay {
+  background-color: rgba(32, 32, 32, 0.3);
+  color: #FFFFFF;
+  text-shadow: 0 0 10px;
+}
+
+div.card-title.h5{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20pt;
+  font-style: italic;
+  text-transform: capitalize;
+}

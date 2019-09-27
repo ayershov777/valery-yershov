@@ -19,6 +19,7 @@
 1. different background images for each page (only load when in desktop)
 1. disable saving images completely with background-images and s3
 
+- refactor css with sass
 - get professional photographer to take interior shots and to make suggestions about how to best represent the work on screen
 - get a real editor to crop the images
 
