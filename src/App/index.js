@@ -7,11 +7,12 @@ import CollectionPage from './CollectionPage';
 
 import './index.css';
 
+import { isBrowser } from 'react-device-detect';
 import { collections } from '../data';
 
 function App() {
   return (
-    <div className="App">
+    <div className={isBrowser ? "App" : "App-mobile"}>
       <div className="frost">
         <Router>
           <NavComponent />
@@ -23,6 +24,7 @@ function App() {
             }} />
           </Switch>
         </Router>
+
       </div>
       {CSS.supports('background-attachment', 'fixed') && <div className="frost-footer" />}
     </div>
