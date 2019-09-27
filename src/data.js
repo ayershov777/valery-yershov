@@ -178,10 +178,6 @@ const DATA = {
 export const seaside = DATA.collections.seaside;
 export const underground = DATA.collections.underground;
 
-export const app = {
-  backgroundImage: 'https://valeryyershov.s3.amazonaws.com/misc/background.png',
-};
-
 export const frontPage = {
   slideshow: [
     seaside.works.seahorse.photos[0],
