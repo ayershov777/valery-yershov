@@ -1,7 +1,7 @@
 import { useState, useLayoutEffect } from 'react';
 
 export function useWindowSize() {
-  let [size, setSize] = useState([0, 0]);
+  let [size, setSize] = [0, 0];
   useLayoutEffect(() => {
     function updateSize() {
       setSize([window.innerWidth, window.innerHeight]);
@@ -11,4 +11,9 @@ export function useWindowSize() {
     return () => window.removeEventListener('resize', updateSize);
   }, []);
   return size;
+}
+
+// estimate what the device is based on the viewport size
+export function getDeviceEstimate () {
+  
 }
