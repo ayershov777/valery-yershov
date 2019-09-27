@@ -8,7 +8,7 @@ const DATA = {
       works: {
         seahorse: {
           title: "Hippocampus Kuda",
-          description: "",
+          description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit laoreet id donec ultrices tincidunt arcu non sodales.",
           medium: "Acrylic on wood, plaster, wood, resin",
           year: "2019",
           size: "44\" x 37\" (111cm x 94cm)",
@@ -21,7 +21,7 @@ const DATA = {
         },
         octopus: {
           title: "Ocean Master",
-          description: "",
+          description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit laoreet id donec ultrices tincidunt arcu non sodales.",
           medium: "Acrylic on wood, plaster, wood, resin",
           year: "2019",
           size: "48\" x 46\" (122cm x 116cm)",
@@ -34,7 +34,7 @@ const DATA = {
         },
         chameleon: {
           title: "Coastal Chameleon",
-          description: "",
+          description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit laoreet id donec ultrices tincidunt arcu non sodales.",
           medium: "Acrylic on wood, wood, resin",
           year: "2019",
           size: "38\" x 37\" (96cm x 94cm)",
@@ -47,7 +47,7 @@ const DATA = {
         },
         fish1: {
           title: "Bat Fish",
-          description: "",
+          description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit laoreet id donec ultrices tincidunt arcu non sodales.",
           medium: "Acrylic on wood, plaster, wood, resin",
           year: "2019",
           size: "36\" x 37\" (91cm x 95cm)",
@@ -57,20 +57,20 @@ const DATA = {
               alt: "painting of a fancy fish swimming in some coral"
             }
           ]
-        },
-        fish2: {
-          title: "",
-          description: "",
-          medium: "",
-          year: "",
-          size: "",
-          photos: [
-            {
-              src: "",
-              alt: ""
-            }
-          ]
-        }
+        }//,
+        // fish2: {
+        //   title: "",
+        //   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit laoreet id donec ultrices tincidunt arcu non sodales.",
+        //   medium: "",
+        //   year: "",
+        //   size: "",
+        //   photos: [
+        //     {
+        //       src: "",
+        //       alt: ""
+        //     }
+        //   ]
+        // }
       }
     },
     underground: {
@@ -81,7 +81,7 @@ const DATA = {
       works: {
         gorilla: {
           title: "Graffiti-Backed Alpha",
-          description: "",
+          description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit laoreet id donec ultrices tincidunt arcu non sodales.",
           medium: "Acrylic paint on canvas",
           year: "2019",
           size: "37\" x 22\" (94cm x 56cm)",
@@ -94,7 +94,7 @@ const DATA = {
         },
         battle1: {
           title: "Siberian Hunter, Atlantic Prey”",
-          description: "",
+          description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit laoreet id donec ultrices tincidunt arcu non sodales.",
           medium: "Acrylic paint on canvas, wood, resin",
           year: "2019",
           size: "59\" x 33\" (149cm x 84cm)",
@@ -107,7 +107,7 @@ const DATA = {
         },
         battle2: {
           title: "Siberian Encounter",
-          description: "",
+          description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit laoreet id donec ultrices tincidunt arcu non sodales.",
           medium: "Acrylic paint on wood and canvas, wood, resin",
           year: "2019",
           size: "48in x 31in (121cm x 79cm)",
@@ -120,7 +120,7 @@ const DATA = {
         },
         rhino: {
           title: "Rhino Territory",
-          description: "",
+          description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit laoreet id donec ultrices tincidunt arcu non sodales.",
           medium: "Acrylic paint on canvas, wood, resin",
           year: "2019",
           size: "61\" x 46\" (156cm x 116cm)",
@@ -133,7 +133,7 @@ const DATA = {
         },
         dog: {
           title: "Man's Last Friend",
-          description: "",
+          description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit laoreet id donec ultrices tincidunt arcu non sodales.",
           medium: "Acrylic paint on canvas, wood, resin",
           year: "2019",
           size: "42\" x 33\" (106cm x 83cm)",
@@ -146,7 +146,7 @@ const DATA = {
         },
         shark: {
           title: "Megalodon in the Bronx”",
-          description: "",
+          description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit laoreet id donec ultrices tincidunt arcu non sodales.",
           medium: "Acrylic paint on canvas, wood, resin",
           year: "2019",
           size: "55\" x 35\" (139cm x 88cm)",
@@ -159,7 +159,7 @@ const DATA = {
         },
         elephant: {
           title: "Elephant Bath",
-          description: "",
+          description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit laoreet id donec ultrices tincidunt arcu non sodales.",
           medium: "Acrylic paint on wood, resin",
           year: "2019",
           size: "25\" (71cm)",
@@ -177,6 +177,8 @@ const DATA = {
 
 export const seaside = DATA.collections.seaside;
 export const underground = DATA.collections.underground;
+
+export const collections = { seaside, underground }
 
 export const frontPage = {
   slideshow: [

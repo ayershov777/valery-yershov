@@ -5,7 +5,7 @@ import './index.css';
 export default function DesktopCovers(props) {
   return (
     props.covers.map((cover, idx) => {
-      const image = <img src={process.env.PUBLIC_URL + cover.photo.src} alt={cover.photo.alt} />
+      const image = <img src={cover.photo.src} alt={cover.photo.alt} />
       const description = (
         <div>
           <h3>“{cover.title}”</h3>
@@ -14,12 +14,15 @@ export default function DesktopCovers(props) {
       );
           
       return (
-        <div className="cover" key={`cover-${idx}`}>
-          {idx % 2 === 0
-          ? <> {image} {description} </>
-          : <> {description} {image} </>}
-        </div>
+        <>
+          <div className="cover" key={`cover-${idx}`}>
+            {idx % 2 === 0
+            ? <> {image} {description} </>
+            : <> {description} {image} </>}
+          </div>
+          <br />
+        </>
       );
     })
-  )
+  );
 }
