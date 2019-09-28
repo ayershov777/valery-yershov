@@ -32,7 +32,7 @@ export default function MobileCollection(props) {
               padding: '2%'
             }}
           >
-            <p style={{ fontSize: '1.2em', }}>{work.description}</p>
+            <p style={{ fontSize: '1.2em', textAlign: 'center' }}>{work.description}</p>
             <br />
             <p style={{ marginLeft: '4%' }}>Medium: {work.medium}</p>
             <p style={{ marginLeft: '4%' }}>Year: {work.year}</p>
