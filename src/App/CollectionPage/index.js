@@ -10,12 +10,9 @@ export default function CollectionPage(props) {
   return (
     <div className="WorkCovers">
       <h3>{props.collectionTitle} Collection</h3>
-
       {width > 640
       ? <DesktopCollection collection={props.collection} />
-      : <MobileCollection collection={props.collection} />}
-
-      
+      : <MobileCollection collection={props.collection} />}     
     </div>
   )
 }
