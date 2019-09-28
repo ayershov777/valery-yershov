@@ -11,8 +11,10 @@ import './index.css';
 import { collections } from '../data';
 
 function App() {
+  const mq = window.matchMedia( "(min-device-width: 960px)" );
+
   return (
-    <div className={window.innerWidth*window.devicePixelRatio > 960 ? "App" : "App-mobile"}>
+    <div className={mq.matches ? "App" : "App-mobile"}>
       <div className="frost">
         <Router>
           <NavComponent />
@@ -26,7 +28,7 @@ function App() {
         </Router>
 
       </div>
-      {window.innerWidth*window.devicePixelRatio <= 960 && <div className="frost-footer" />}
+      {mq.matches && <div className="frost-footer" />}
     </div>
   );
 }
