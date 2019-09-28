@@ -93,7 +93,7 @@ const DATA = {
           ]
         },
         battle1: {
-          title: "Siberian Hunter, Atlantic Prey”",
+          title: "Siberian Hunter, Atlantic Prey",
           description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit laoreet id donec ultrices tincidunt arcu non sodales.",
           medium: "Acrylic paint on canvas, wood, resin",
           year: "2019",
@@ -105,19 +105,19 @@ const DATA = {
             }
           ]
         },
-        battle2: {
-          title: "Siberian Encounter",
-          description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit laoreet id donec ultrices tincidunt arcu non sodales.",
-          medium: "Acrylic paint on wood and canvas, wood, resin",
-          year: "2019",
-          size: "48in x 31in (121cm x 79cm)",
-          photos: [
-            {
-              src: "",//"https://valeryyershov.s3.amazonaws.com/collections/underground/battle1/main.png",
-              alt: "painting of a tiger hunting a white octopus in a flooded subway tunnel"
-            }
-          ]
-        },
+        // battle2: {
+        //   title: "Siberian Encounter",
+        //   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit laoreet id donec ultrices tincidunt arcu non sodales.",
+        //   medium: "Acrylic paint on wood and canvas, wood, resin",
+        //   year: "2019",
+        //   size: "48in x 31in (121cm x 79cm)",
+        //   photos: [
+        //     {
+        //       src: "https://valeryyershov.s3.amazonaws.com/collections/underground/battle1/main.png",
+        //       alt: "painting of a tiger hunting a white octopus in a flooded subway tunnel"
+        //     }
+        //   ]
+        // },
         rhino: {
           title: "Rhino Territory",
           description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit laoreet id donec ultrices tincidunt arcu non sodales.",
@@ -145,7 +145,7 @@ const DATA = {
           ]
         },
         shark: {
-          title: "Megalodon in the Bronx”",
+          title: "Megalodon in the Bronx",
           description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit laoreet id donec ultrices tincidunt arcu non sodales.",
           medium: "Acrylic paint on canvas, wood, resin",
           year: "2019",

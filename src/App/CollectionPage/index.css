@@ -29,6 +29,37 @@
   }
 }
 
+.WorkCovers {
+  margin: auto;
+  margin-top: 2.5%;
+  background: black;
+  background: rgba(0, 0, 0, 0.9);
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, .95) 25%);
+  width: 95%;
+  padding: 1.25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 0 0 10px black;
+}
+
+.WorkCovers > h3 {
+  text-align: center;
+  color: white;
+  font-size: 3.5vw;
+  line-height: 1.5;
+  text-shadow: 0px 0px 3px white;;
+  margin-bottom: 0;
+  text-transform: capitalize;
+}
+
+@media only screen and (max-width: 640px) {
+  .WorkCovers > h3 {
+    font-size: 7vw;
+  }
+}
+
 .work-cover {
   margin: 1.25%;
   width: 80%;

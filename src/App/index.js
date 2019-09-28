@@ -7,12 +7,12 @@ import CollectionPage from './CollectionPage';
 
 import './index.css';
 
-import { isBrowser } from 'react-device-detect';
+// import { isBrowser } from 'react-device-detect';
 import { collections } from '../data';
 
 function App() {
   return (
-    <div className={isBrowser ? "App" : "App-mobile"}>
+    <div className={window.innerWidth*window.devicePixelRatio > 960 ? "App" : "App-mobile"}>
       <div className="frost">
         <Router>
           <NavComponent />
@@ -26,7 +26,7 @@ function App() {
         </Router>
 
       </div>
-      {CSS.supports('background-attachment', 'fixed') && <div className="frost-footer" />}
+      {window.innerWidth*window.devicePixelRatio <= 960 && <div className="frost-footer" />}
     </div>
   );
 }
