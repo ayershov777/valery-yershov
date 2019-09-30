@@ -1,11 +1,16 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import './index.css';
 
 export default function DesktopCovers(props) {
   return (
     props.covers.map((cover, idx) => {
-      const image = <img src={cover.photo.src} alt={cover.photo.alt} />
+      const image = (
+        <Link to={`/collections/${cover.title}`}>
+          <img src={cover.photo.src} alt={cover.photo.alt} />
+        </Link>
+      );
       const description = (
         <div>
           <h3>“{cover.title}”</h3>

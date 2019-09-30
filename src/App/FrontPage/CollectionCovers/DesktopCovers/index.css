@@ -9,11 +9,15 @@
   justify-content: space-between;
 }
 
-.cover > img {
+.cover > a {
   width: 40%;
   align-self: center;
   background-color: teal;
   box-shadow: 0 0 10px black;
+}
+
+.cover > a > img {
+  width: 100%;
 }
 
 .cover > div {
