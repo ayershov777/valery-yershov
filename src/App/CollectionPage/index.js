@@ -8,8 +8,10 @@ import { useWindowSize } from '../../utils';
 export default function CollectionPage(props) {
   const [width] = useWindowSize();
   return (
-    <div className="WorkCovers">
-      <h3>{props.collectionTitle} Collection</h3>
+    <div className="CollectionPage">
+      <div>
+        <h3>{props.collectionTitle} Collection</h3>
+      </div>
       {width > 640
       ? <DesktopCollection collection={props.collection} />
       : <MobileCollection collection={props.collection} />}     

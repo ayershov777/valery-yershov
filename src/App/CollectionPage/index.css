@@ -1,9 +1,9 @@
-.WorkCovers {
+.CollectionPage {
   margin: auto;
   margin-top: 2.5%;
-  background: black;
-  background: rgba(0, 0, 0, 0.9);
-  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, .95) 25%);
+  /* background: black; */
+  background: rgba(0, 0, 0, 0.7);
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8) 25%, rgba(0, 0, 0, 0.8) 75%, rgba(0, 0, 0, 0.9));
   width: 95%;
   padding: 1.25%;
   display: flex;
@@ -13,51 +13,19 @@
   box-shadow: 0 0 10px black;
 }
 
-.WorkCovers > h3 {
+.CollectionPage > div > h3 {
   text-align: center;
   color: white;
-  font-size: 3.5vw;
+  font-size: 5vw;
   line-height: 1.5;
-  text-shadow: 0px 0px 3px white;;
+  text-shadow: 0px 0px 2px white;
   margin-bottom: 0;
   text-transform: capitalize;
 }
 
 @media only screen and (max-width: 640px) {
-  .WorkCovers > h3 {
-    font-size: 7vw;
-  }
-}
-
-.WorkCovers {
-  margin: auto;
-  margin-top: 2.5%;
-  background: black;
-  background: rgba(0, 0, 0, 0.9);
-  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, .95) 25%);
-  width: 95%;
-  padding: 1.25%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  box-shadow: 0 0 10px black;
-}
-
-.WorkCovers > h3 {
-  text-align: center;
-  color: white;
-  font-size: 3.5vw;
-  line-height: 1.5;
-  text-shadow: 0px 0px 3px white;;
-  margin-bottom: 0;
-  text-transform: capitalize;
-  padding-top: 2%;
-}
-
-@media only screen and (max-width: 640px) {
-  .WorkCovers > h3 {
-    font-size: 7vw;
+  .CollectionPage > div > h3 {
+    font-size: 9vw;
   }
 }
 
@@ -87,8 +55,8 @@
 
 .work-cover > div > h3 {
   width: 100%;
-  font-size: 2.75vw;
-  text-shadow: 0px 0px 2px white;;
+  font-size: 5vw;
+  text-shadow: 0px 0px 2px white;
   font-style: italic;
   color: white;
 }
@@ -98,7 +66,7 @@
 }
 
 .work-cover > div > .details > p {
-  color: #ddd;
+  color: white;
   width: 100%;
   font-size: 1.35vw;
   line-height: 1em;

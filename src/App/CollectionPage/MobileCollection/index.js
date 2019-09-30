@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 export default function MobileCollection(props) {
   return (
@@ -7,15 +7,18 @@ export default function MobileCollection(props) {
       return (  
         <div>
           <br />
-          <div style={{
-            borderBottom: '1px dotted gray'
-          }} />
+          <div
+            style={{
+              borderBottom: '1px dotted gray'
+            }} 
+          />
           <h3
             style={{
               textAlign: 'center',
               color: 'white',
               textShadow: '0 0 2px white',
-              padding: '4% 0'
+              padding: '4% 0',
+              fontSize: '7vw'
             }}
           >
             {work.title}
