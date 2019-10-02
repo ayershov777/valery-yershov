@@ -7,7 +7,7 @@
 1. test out the 3D carousel
 1. test different devices for finer details
 1. smooth out image loading times, load the background image last and make it fade on
-1. disable saving images completely with background-images and s3
+1. disable saving images completely with aws-sdk
 
 - refactor css with sass
 - speak with professional graphic designer about how to best represent the work on screen
