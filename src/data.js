@@ -90,6 +90,9 @@ const DATA = {
               src: "https://valeryyershov.s3.amazonaws.com/collections/underground/gorilla/main.png",
               alt: "painting of a gorilla covered in graffiti, sitting in a colorful catacomb"
             }
+          ],
+          videos: [
+            "https://valeryyershov.s3.amazonaws.com/collections/underground/gorilla/main.mp4"
           ]
         },
         battle1: {
@@ -182,6 +185,7 @@ export const collections = { seaside, underground }
 
 export const frontPage = {
   slideshow: [
+    "https://valeryyershov.s3.amazonaws.com/misc/frontpage.mp4",
     seaside.works.seahorse.photos[0],
     seaside.works.octopus.photos[0],
     seaside.works.chameleon.photos[0],

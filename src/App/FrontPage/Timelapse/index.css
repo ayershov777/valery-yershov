@@ -5,12 +5,22 @@
   padding-bottom: 5vh;
 }
 
+/* .Timelapse > video {
+  border: none;
+  overflow: hidden;
+  width: 40%;
+  height: 24.25vw;
+  box-shadow: 0 0 20px rgba(32, 32, 32);
+  background-color: black;
+} */
+
 .Timelapse > iframe {
   border: none;
   overflow: hidden;
   width: 40%;
   height: 24.25vw;
   box-shadow: 0 0 20px rgba(32, 32, 32);
+  background-color: black;
 }
 
 .Timelapse > div {
