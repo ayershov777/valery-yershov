@@ -26,7 +26,9 @@ export default function NavComponent() {
           <Nav.Link className="NavItem" as={Link} to="/contact">Contact Valery</Nav.Link>
         </Nav>
         <Nav className="ml-auto">
-          <Nav.Link style={{ marginLeft: '15px' }} href={instagram}><i className="fa fa-lg fa-instagram" aria-hidden="true" /></Nav.Link>
+          <Nav.Link style={{ marginLeft: '15px' }} href={instagram}>
+            <i className="fa fa-lg fa-instagram" aria-hidden="true" />
+          </Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
