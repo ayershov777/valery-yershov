@@ -6,6 +6,7 @@ import './index.css';
 import { useWindowSize } from '../../utils';
 
 export default function CollectionPage(props) {
+  window.scrollTo(0,0);
   const [width] = useWindowSize();
   return (
     <div className="CollectionPage">
