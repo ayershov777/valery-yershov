@@ -1,16 +1,18 @@
 .Navbar {
   background-color: black;
   font-weight: 600;
-  text-align: center;
+  /* text-align: center; */
   box-shadow: 0 3px 5px;
 }
 
+#basic-navbar-nav div a.nav-link,
 #basic-navbar-nav div a.NavItem.nav-link,
 #basic-navbar-nav div div a.dropdown-toggle.nav-link {
   margin: auto 2vw;
   color: #D0D0D0;
 }
 
+#basic-navbar-nav div a.nav-link:hover,
 #basic-navbar-nav div a.NavItem.nav-link:hover,
 #basic-navbar-nav div div a.dropdown-toggle.nav-link:hover {
   color: #FFF;
